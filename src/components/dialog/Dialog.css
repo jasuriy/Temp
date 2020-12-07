@@ -1,0 +1,50 @@
+.dialog-main-div{
+  position: fixed;
+  top: 51rem;
+  right: 3rem;
+}
+.MuiDialogTitle-root {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 7px 16px !important;
+  height: 170px;
+ 
+}
+.MuiInputBase-input {
+  font: inherit;
+  color: black !important;
+  width: 23rem !important;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms !important;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButton-label:focus{
+  box-shadow: none !important;
+  outline: none !important;
+}
+.MuiDialog-scrollPaper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end !important;
+}
+.MuiDialog-container {
+  height: 155% !important;
+  outline: 0;
+}
+.iconButton{
+  background: url('./iconContact.png');
+}
+@media only screen and (max-width: 600px)  {
+  .dialog-main-div{
+    display: none
+  }
+}

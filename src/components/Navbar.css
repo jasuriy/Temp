@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:ital,wght@1,800&display=swap");
+.logovscall {
+  /* margin-left: 33rem; */
+  overflow: hidden;
+}
+.logodiv {
+  padding-top: 3rem;
+  padding-left: 11rem;
+  /* padding-left: 0 auto; */
+}
+.logodiv img {
+  justify-content: end;
+  justify-items: end;
+}
+@media (max-width: 992px){
+  .logodiv {
+    padding-top: 3rem;
+    padding-left: 7rem;
+}
+}
+@media (max-width: 768px){
+  .logodiv {
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+}
+.logoletter {
+  margin-left: 20rem;
+}
+.call_section {
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+.call_icon img {
+  height: 2px;
+  width: 20px;
+  margin-left: 2rem !important;
+}
+.call_section .call_num {
+  padding-top: 0.2rem;
+  font-weight: bold;
+  font-size: 22px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e364b;
+  letter-spacing: 1px;
+  padding: 0 10px;
+  margin-top: 3rem;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #2e364b;
+  display: block;
+  padding: 2rem;
+}
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #2e364b;
+  border-radius: 10px;
+}
+.navbar .socials a {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 24px 12px;
+}
+@media (max-width: 576px) {
+  .call_section {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .logovscall {
+    padding-left: 5rem;
+  }
+}

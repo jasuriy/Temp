@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700 &display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap");
+
+.card {
+    align-items: center;
+}
+
+.teamMain {
+    width: 100%;
+    background-size: cover;
+    color: black;
+}
+.teamHeading {
+    padding-top: 8rem;
+    padding-bottom: 30pt;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+.cardTitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt;
+    font-weight: bolder;
+}
+
+.card-job {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    opacity: 0.96;
+}
+.cardText {
+    font-weight: bolder;
+    font-size: 9pt;
+    line-height: 12px;
+    letter-spacing: 0.7px;
+    opacity: 0.85;
+}
+.cardBody {
+    padding-bottom: 2px;
+}
+.image-div {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.square {
+    transform: rotate(-45deg);
+    width: 105px;
+    height: 105px;
+    margin: 24px;
+    overflow: hidden;
+}
+
+.pic {
+    transform: rotate(45deg);
+    overflow: hidden;
+    width: 140px;
+    height: 140px;
+    margin: -18px;
+}
+.socialLink {
+    padding: 1px 8px;
+    margin-bottom: 22px;
+}
+.socialLink img {
+    width: 15px;
+}

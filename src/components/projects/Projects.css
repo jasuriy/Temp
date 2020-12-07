@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700 &display=swap");
+
+
+.projects {
+    width: 87%;
+}
+.projects_title h3 {
+    margin-top: 4rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 1;
+}
+.projects_title .projects_titleP {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 0.7;
+    margin-bottom: 3rem;
+}
+.projects_title p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 0.7;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+@media(max-width: 900px) and(min-width: 584px) {
+    .iparent1 {
+        border-radius: 0 50px;
+        padding: 10px;
+        width: 20%;
+        height: 18rem;
+
+    }
+    .iparentRectangle {
+        top: 7.5rem !important;
+        left: -33rem !important;
+    }
+}
+@keyframes move {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.iparent1 {
+    padding: 4px;
+    width: auto;
+    height: 33rem;
+    transition: transform 0.6s;
+    /* animation: move 6s infinite; */
+}
+.iparent1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+@media(min-width: 768px) {
+    .col-md-8 {
+        flex: 0 0 66.666667%;
+        max-width: 60.666667%;
+        padding-bottom: 8rem;
+    }
+}
+@media(max-width: 977px) {
+    .uztrackingText .uztrackingParagraph {
+        line-height: 22px;
+    }
+}
+.iparentTextImg {
+    margin-top: 6rem;
+    z-index: 999;
+}
+.iparent1text .iparentparagraph {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 35px;
+    display: inline-block;
+}
+
+.iparent1text h3 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+}
+.uztracking {
+    padding: 4px;
+    width: auto;
+    height: 33rem;
+    transition: transform 0.6s;
+}
+.uztracking:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.uztrackingText h3 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+}
+.uztrackingText .uztrackingParagraph {
+    text-align: center;
+    /* padding: 1rem 5rem; */
+    /* margin-left: 2rem; */
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 35px;
+    display: inline-block;
+}
+.facecon1 {
+    padding: 4px;
+    width: auto;
+    height: 44rem;
+    transition: transform 0.6s;
+}
+.facecon1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.facecon1text .faceconparagraph {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 35px;
+    display: inline-block;
+}
+
+.facecon1text h3 {
+    padding-top: 1rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+@media(max-width:1685px) {
+    .iparent1text .iparentparagraph {
+        text-align: center;
+        padding: 1rem;
+        font-size: 16px;
+    }
+    .facecon1text .faceconparagraph {
+        text-align: center;
+        padding: 1rem;
+        font-size: 16px;
+    }
+    .uztrackingText .uztrackingParagraph {
+        text-align: center;
+        padding: 1rem;
+        font-size: 16px;
+    }
+}
+@media(max-width:977px) {
+    .iparent1text .iparentparagraph {
+        line-height: 22px;
+    }
+    .facecon1text .faceconparagraph {
+        line-height: 22px;
+    }
+    .uztrackingText .uztrackingParagraph {
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .iparent1{
+        height: 17rem;
+        width: 90%;
+    }
+    .uztracking{
+        height: 17rem;
+        width: 90%;
+    }
+    .facecon1{
+        height: 20rem;
+        width: 90%;  
+    }
+}
+@media screen and (max-width: 500px) {
+    .iparent1text h3{
+font-size: 20px;
+    }
+    .uztrackingText h3{
+        font-size: 20px;
+    }
+    .facecon1text h3 {
+        font-size: 20px
+    }
+}

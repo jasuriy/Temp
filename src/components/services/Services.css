@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700 &display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400;600&display=swap");
+
+.card {
+    border: none !important;
+    border-style: none !important;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.card-text:last-child {
+    margin-bottom: 8px;
+}
+.card-img {
+    position: absolute;
+    top: -68px;
+    /* z-index: 2; */
+    left: -95px;
+    width: 50%;
+}
+.textCard {
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.75;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.titleCard {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+.img-responsive {
+    position: absolute;
+    width: 22%;
+    left: -30px;
+    top: -40px;
+}
+
+.service_row {
+    margin: 2rem;
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 1px 10px 20px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+}
+.service_column {
+    justify-content: center;
+}
+
+.services_title h3 {
+    margin-top: 6rem;
+    text-align: center;
+    font: normal normal bold 36px / 44px Montserrat;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 1;
+}
+.services_title p {
+    font: normal normal medium 16px / 19px Montserrat;
+    font-weight: bolder;
+    letter-spacing: 0;
+    color: #2e364b;
+    opacity: 0.7;
+}
+.textCard {
+    letter-spacing: 1.5px;
+    color: black;
+    opacity: 1;
+
+}
+@media(min-width: 576px) {
+    .service_column {
+        margin: 2rem;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 574px)  {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 23px;
+    }
+}
+/* @media only screen and (max-width: 993px) and (min-width: 768px)  {
+    .col-sm-12 {
+        flex: 2 0 69%;
+        max-width: 100%;
+    }
+} */
+.service_row{
+transition: transform 0.6s;
+}
+.service_row:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
