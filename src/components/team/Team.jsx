@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <div id="team" className="teamMain container">
       <div className="teamHeader">
-        <h1 className="teamHeading">Team</h1>
+        <h1 className="teamHeading">Team1</h1>
       </div>
       <div className="row">
         <div className="col-sm-12 col-md-3 col-lg-3">
