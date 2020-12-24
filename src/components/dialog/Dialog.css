@@ -2,6 +2,7 @@
   position: fixed;
   top: 51rem;
   right: 3rem;
+  z-index: 15 !important; 
 }
 .MuiDialogTitle-root {
   flex: 0 0 auto;
@@ -41,10 +42,43 @@
   outline: 0;
 }
 .iconButton{
-  background: url('./iconContact.png');
+  background: url('../images/chatIcon2.png');
+ 
 }
 @media only screen and (max-width: 600px)  {
   .dialog-main-div{
-    display: none
+    position: fixed;
+    top: 31rem !important;
+    right: 1rem;
+    padding-left: 25px !important;
+
   }
+  .iconButton{
+    transform: scale(0.5);
+  }
+  .MuiDialog-paperWidthSm {
+    max-width: 600px;
+    bottom: 75px !important;
+}
+  .MuiDialogContent-root {
+    flex: 1 1 auto;
+    padding: 1px 24px !important;
+    overflow-y: none !; 
+    -webkit-overflow-scrolling: touch;
+    width: 260px!important;
+}
+.MuiInputBase-input {
+  width: 230px !important;
+  
+}
+.dialog-p {
+  margin-left: 21px !important;
+}
+}
+.MuiDialogContent-root {
+  flex: 1 1 auto;
+  padding: 8px 2px !important;
+   overflow-y: none !; 
+  -webkit-overflow-scrolling: hidden !important;
+  
 }

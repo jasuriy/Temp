@@ -21,7 +21,6 @@ const App = () => {
       <MainBack />
       <Services />
       <ProjectsNew />
-      {/* <TimelineNew   /> */}
       <JustForTest />
       <Team />
       <Partners />

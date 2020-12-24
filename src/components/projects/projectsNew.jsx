@@ -43,7 +43,7 @@ const ProjectsNew = () => {
         </div>
       </div>
       <div className="row uztrackingText">
-        <div className="col-sm-12 col-md-4">
+        <div className="col-sm-12 col-md-4" style={{ order: "2" }}>
           <h3>
             How do I track a package? <br></br>UzTracking!
           </h3>

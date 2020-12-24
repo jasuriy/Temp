@@ -1,12 +1,11 @@
 import React from "react";
 import "../services/Services.css";
 import apple from "../images/apple.png";
-import desktop from "../images/desktop.png";
+import desktoplogo from "../images/desktoplogo.png";
 import server from "../images/server.png";
 import android from "../images/android.png";
 import weblogo from "../images/weblogo.png";
 import hardware from "../images/hardware.png";
-import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div
@@ -75,7 +74,11 @@ const Services = () => {
       <div className="row service_column">
         <div className="col-sm-12 col-md-6 col-lg-3 service_row">
           <div className="row">
-            <img className="img-responsive" src={desktop} alt="Card image" />
+            <img
+              className="img-responsive"
+              src={desktoplogo}
+              alt="Card image"
+            />
           </div>
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="card">

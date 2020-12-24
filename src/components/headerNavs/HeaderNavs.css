@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 .navHeader ul {
-  /* padding: 2px; */
-  /* float: right; */
-  /* display: flex; */
   justify-content: center;
   list-style: none;
 }

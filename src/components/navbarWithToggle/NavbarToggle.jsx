@@ -1,11 +1,6 @@
 import React, { useEffect } from "react";
 import "../navbarWithToggle/NavbarToggle.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import togglerIcon from "../images/togglerIcon.svg";
 import { Link, animatedScroll as scroll } from "react-scroll";
-import { Dialog } from "@material-ui/core";
-import Navbar from "../Navbar";
-import HeaderNavs from "../headerNavs/HeaderNavs";
 
 var onClickedList = {
   0: "service",

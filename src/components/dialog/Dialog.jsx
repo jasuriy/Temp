@@ -6,16 +6,11 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
-import DialogTitle from "@material-ui/core/DialogTitle";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
-import FormHelperText from "@material-ui/core/FormHelperText";
 import Slide from "@material-ui/core/Slide";
-import Grid from "@material-ui/core/Grid";
 import { Box, TextField } from "@material-ui/core";
-import Zoom from "@material-ui/core/Zoom";
-import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="left" ref={ref} {...props} />;
@@ -47,10 +42,10 @@ export default function AlertDialogSlide() {
         className="iconButton"
         style={{
           height: "65px",
-          width: "65px",
+          width: "64px",
           border: "none",
           outline: "none",
-          zIndex: "10",
+          zIndex: "15",
         }}
         onClick={handleClickOpen}
       ></button>
@@ -75,6 +70,7 @@ export default function AlertDialogSlide() {
               Welcome to the Fizmasoft
             </h3>
             <p
+              className="dialog-p"
               style={{ marginTop: "4px", marginLeft: "88px", color: "#170a47" }}
             >
               Please, leave your message
@@ -92,18 +88,18 @@ export default function AlertDialogSlide() {
         </Box>
         <DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
-            <FormControl>
+            <FormControl style={{ marginLeft: "25px" }}>
               <InputLabel htmlFor="my-input">Your name</InputLabel>
               <Input id="my-input" aria-describedby="my-helper-text" />
             </FormControl>
           </DialogContentText>
           <DialogContentText id="alert-dialog-slide-description">
-            <FormControl>
+            <FormControl style={{ marginLeft: "25px" }}>
               <InputLabel htmlFor="my-input">Email address</InputLabel>
               <Input id="my-input" aria-describedby="my-helper-text" />
             </FormControl>
           </DialogContentText>
-          <DialogContentText>
+          <DialogContentText style={{ marginLeft: "25px" }}>
             <TextField
               inputProps={{
                 maxlength: CHARACTER_LIMIT,

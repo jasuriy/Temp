@@ -48,7 +48,6 @@ a {
 .mobileNav li a {
     display: block;
     padding: 20px;
-    /* border-right: 0px solid #f4f4f4; */
     text-decoration: none;
     font-size: 20px;
 }
@@ -171,10 +170,7 @@ a {
     .mobileNav li a {
         padding: 19px;
     }
-    .mobileNav {
-        /* padding-top: 30px; */
-       
-    }
+
 }
 @media(max-width: 867px) {
 

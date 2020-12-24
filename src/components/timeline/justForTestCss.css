@@ -39,19 +39,113 @@
 .content5 h3,
 .content6 h3 {
     padding-top: 12px;
+    font-size: 22px;
 }
 .box .box-image img {
     opacity: 1.6;
 }
+@media screen and (max-width: 500px) {
+    .box2 .content2 {
+      bottom: 77px !important;
+    }
+    .box2:hover .content2{
+        height: 58% !important;
+        left: 25% !important;
+        width: 51% !important;
+}
+.box3 .content3{
+    left: 22% !important;
+    width: 56% !important;
+    bottom: 74px !important;
+     height: 50px !important; 
+  }
+  .box3:hover .content3{
+      height: 50% !important;
+      font-size: 12px !important;
+      bottom: px !important;
+  }
+  .profile3 p{
+    padding: 2px;
+    font-size: 13px !important;
+    margin-top: 1px !important;
+    padding-top: 10px !important;
+  }
+  .box4:hover .content4 {
+    width: 53%;
+    height: 51% !important;
+    bottom: 128px !important;
+    left: 22%;
+}
+.profile4 p {
+    padding: 1px !important;
+    font-size: 13px !important;
+    margin-top: 0px !important;
+    font-weight: bold;
+}
+.box5:hover .content5 {
+    width: 53%;
+    height: 54% !important;
+    bottom: 118px !important;
+    left: 22%;
+}
+}
+@media screen and (max-width: 375px) {
+    .box:hover .content{
+        height: 60% !important;
+        width: 50% !important;
+        left: 80px !important;
+        
+    }
+    .profile p{
+        padding: 9px !important;
+    }
+    .profile3 p{
+        font-size: 12px!important;
+    }
+    .box2 .content2 {
+        position: absolute;
+        bottom: 65px !important;
+        left: 28%;
+        width: 44%;
+        height: 45px;
+       
+    }
+    .box2:hover .content2 {
+        height: 55%;
+        width: 46% !important;
+        left: 28% !important;
+    }
+    .box3 .content3{
+        left: 28% !important;
+        width: 45% !important;
+        bottom: 72px !important;
+        height: 50px !important;
+      }
+      .box2:hover .content2 {
+          height: 57% !important;
+      }
+}
 @media screen and (max-width: 360px) {
     .content h3{
-        font-size: 20px;
+        font-size: 22px;
     }
     .box:hover .content{
         height: 60% !important;
+        width: 50% !important;
+        left: 80px !important;
+    }
+    .box .content {
+        position: absolute;
+        bottom: 10px;
+        left: 23% !important;
+        right: 22%;
+        width: 48% !important;
+        height: 45px 
     }
   .profile p{
-      margin-top: -7px !important;
+      margin-top: 0px !important;
+      font-size: 12px !important;
+
   }
   .content2 h3{
       font-size: 20px;
@@ -59,25 +153,43 @@
     .box2 .content2{
     bottom: 66px !important;
   }
-  .box2:hover .content2{
-      height: 52% !important;
-  }
-  .profile2 p{
-    margin-top: -6px !important;
-  }
+  
+  .box2:hover .content2 {
+    width: 50% !important;
+    height: 75%;
+    bottom: 0px;
+    left: 25% !important;
+    background: white;
+    opacity: 0.5;
+    border-radius: 40px 0 40px 0;
+}
+  .box2 .content2 {
+    position: absolute;
+    bottom: 25px;
+    left: 28%;
+    width: 44%;
+    height: 45px;
+   
+}
   .content3 h3{
     font-size: 22.2px;
   }
-  .box3 .content3{
-  bottom: 66px !important;
+.box3 .content3{
+  left: 28% !important;
+  width: 45% !important;
+  bottom: 72px !important;
+  height: 46px !important;
 }
 .box3:hover .content3{
     height: 58% !important;
+    left: 24% !important;
+    width: 52% !important;
+    bottom: 72px !important;
 }
 .profile3 p{
-    padding-top: 7px !important;
+padding-top: 1px !important;
   margin-top: 0px !important;
-  font-size: 15px !important;
+  font-size: 12px !important;
 }
 .parentcontr{
     margin-top: 2px !important;
@@ -94,15 +206,14 @@
     left: 85px !important;
 }
 .profile4 p{
-  margin-top: -6px !important;
-  font-size: 15px!important;
+    padding: 1px !important;
+    font-size: 12.5px !important;
+    margin-top: 0px !important;
 }
 .imgBox5 img{
     height: 23em !important;
 }
-.box5 .content5{
-    bottom: 122px;
-}
+
 .box5:hover .content5{
     bottom: 130px!important;
     height: 48% !important;
@@ -131,21 +242,21 @@
 .box .content {
     position: absolute;
     bottom: 70px;
-    left: 23%;
-    width: 50%;
-    height: 60px;
+    left: 26%;
+    width: 40%;
+    height: 45px;
     transition: 0.5s;
     overflow: hidden;
-    font-size: 33px;
     color: black;
     background-color: rgb(241, 233, 233);
-
+    
 }
 .box:hover .content {
-    width: 59%;
-    height: 75%;
+    font-size: 15px !important;
+    width: 54%;
+    height: 68%;
     bottom: 60px;
-    left: 17%;
+    left: 20%;
     background: white;
     opacity: 0.9;
     border-radius: 46px 0 46px 0 !important;
@@ -173,12 +284,12 @@
 }
 .profile h5 {
     margin-top: 30px;
-    color: #000;
+    color: #0000;
 }
 .profile p {
     padding: 20px;
-    font-size: 18px;
-    margin-top: 50px;
+    font-size: 15px;
+    margin-top: 0px;
     font-weight: bold;
 }
 .box2 .box-image2 img {
@@ -186,18 +297,18 @@
 }
 .box2 .content2 {
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     left: 28%;
-    width: 45%;
-    height: 60px;
+    width: 44%;
+    height: 45px;
     transition: 0.5s;
     overflow: hidden;
     background-color: rgb(241, 233, 233);
 }
 .box2:hover .content2 {
     width: 55%;
-    height: 75%;
-    bottom: 0px;
+    height: 70%;
+    bottom: 25px;
     left: 22%;
     background: white;
     opacity: 0.5;
@@ -228,9 +339,9 @@
     color: #000;
 }
 .profile2 p {
-    padding: 20px;
-    font-size: 18px;
-    margin-top: 50px;
+    padding: 4px;
+    font-size: 13px !important;
+    margin-top: 0px;
     font-weight: bold;
 }
 .box3 .box-image3 img {
@@ -282,7 +393,7 @@
 }
 .profile3 p {
     padding: 2px;
-    font-size: 18px;
+    font-size: 13px;
     margin-top: 50px;
     font-weight: bold;
 }
@@ -294,7 +405,7 @@
     bottom: 150px;
     left: 28%;
     width: 43%;
-    height: 60px;
+    height: 45px;
     transition: 0.5s;
     overflow: hidden;
     background-color: rgb(241, 233, 233);
@@ -333,9 +444,9 @@
     color: #000;
 }
 .profile4 p {
-    padding: 20px;
-    font-size: 18px;
-    margin-top: 50px;
+    padding: 3px;
+    font-size: 13px;
+    margin-top: 22px;
     font-weight: bold;
 }
 .box5 .box-image5 img {
@@ -343,18 +454,18 @@
 }
 .box5 .content5 {
     position: absolute;
-    bottom: 100px;
+    bottom: 115px;
     left: 28%;
     width: 43%;
-    height: 60px;
+    height: 45px;
     transition: 0.5s;
     overflow: hidden;
     background-color: rgb(241, 233, 233);
 }
 .box5:hover .content5 {
     width: 53%;
-    height: 65%;
-    bottom: 80px;
+    height: 51% !important;
+    bottom: 100px;
     left: 24%;
     background: white;
     opacity: 0.5;
@@ -385,8 +496,8 @@
 }
 .profile5 p {
     padding: 1px;
-    font-size: 18px;
-    margin-top: 50px;
+    font-size: 13px !important;
+    margin-top: 0px;
     font-weight: bold;
 }
 .box6 .box-image6 img {
@@ -397,7 +508,7 @@
     bottom: 105px;
     left: 28%;
     width: 43%;
-    height: 60px;
+    height: 45px;
     transition: 0.5s;
     overflow: hidden;
     background-color: rgb(241, 233, 233);
@@ -437,8 +548,8 @@
 }
 .profile6 p {
     padding: 2px;
-    font-size: 18px;
-    margin-top: 50px;
+    font-size: 14px;
+    margin-top: 5px;
     font-weight: bold;
 }
 .timeline-header h1 {
@@ -560,3 +671,4 @@
         font-size: 20px;
     }
   }
+ 

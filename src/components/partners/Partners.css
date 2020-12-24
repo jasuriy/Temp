@@ -8,7 +8,7 @@
 .partnersHeader p {
   margin-bottom: 4rem;
   font-size: 23px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .partnerRepeat {
   width: 3rem;
@@ -21,3 +21,15 @@
   font-weight: 700;
   font-size: 15px;
 }
+.smartbase{
+  width: 100%;
+  height: 150px;
+}
+.ablsoft {
+  width: 100%;
+}
+@media (max-width: 950px){
+.ablsoft{
+  margin-bottom: 4rem;
+}
+  }

@@ -34,10 +34,9 @@ const JustForTest = () => {
               <div className="hover-card">
                 <div className="profile">
                   <p className="text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    reprehenderit impedit, odio inventore necessitatibus natus,
-                    beatae quibusdam eius exercitationem est optio blanditiis.
-                    Magni, harum! Libero, quos! Expedita eius deserunt numquam.
+                    Fizmasoft team had not had a problem with selecting logo of
+                    the team and it is because of Normurod Mamasoliyev who is
+                    the head of web developers and designers in the team.
                   </p>
                 </div>
               </div>
@@ -56,10 +55,9 @@ const JustForTest = () => {
               <div className="hover-card2">
                 <div className="profile2">
                   <p className="text-center2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    reprehenderit impedit, odio inventore necessitatibus natus,
-                    beatae quibusdam eius exercitationem est optio blanditiis.
-                    Magni, harum! Libero, quos! Expedita eius deserunt numquam.
+                    Fizmasoft's second valuable project has launched in Tashkent
+                    region in Angren. Team had second presentation of projects,
+                    including iParet, FaceCon, Fcrypt v2.0 and USB-guard.
                   </p>
                 </div>
               </div>
@@ -78,10 +76,11 @@ const JustForTest = () => {
               <div className="hover-card3">
                 <div className="profile3">
                   <p className="text-center3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    reprehenderit impedit, odio inventore necessitatibus natus,
-                    beatae quibusdam eius exercitationem est optio blanditiis.
-                    Magni, harum! Libero, quos! Expedita eius deserunt numquam.
+                    Fizmasoft is about to release first official project.
+                    Android developers are getting ready iPrent project to
+                    present. In addition, team leader Sherzodbek , android
+                    developer Jasurbek and web developer Normurod have worked on
+                    this for a year.
                   </p>
                 </div>
               </div>
@@ -102,9 +101,10 @@ const JustForTest = () => {
               <div className="hover-card4">
                 <div className="profile4">
                   <p className="text-center4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    reprehenderit impedit, odio inventore necessitatibus natus,
-                    beatae quibusdam eius exercitationem est optio blanditiis.
+                    Azamjon Rakhimjonov created Fizmasoft team in 2013. But, due
+                    to some problems, team was not gathered. However, idea of
+                    Fizmasoft startup did not die. It was again encouraged in
+                    2016 with four people.
                   </p>
                 </div>
               </div>
@@ -120,14 +120,13 @@ const JustForTest = () => {
               />
             </div>
             <div className="content5 ">
-              <h3>Presentations</h3>
+              <h3>Projects</h3>
               <div className="hover-card5">
                 <div className="profile5">
                   <p className="text-center5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    reprehenderit impedit, odio inventore necessitatibus natus,
-                    beatae quibusdam eius exercitationem est optio blanditiis.
-                    Magni
+                    23th Novermber of 2016 played an important role in Fizmasoft
+                    team. Team had first presentation of projects, including
+                    iParet, FaceCon, Fcrypt v2.0 and USB-guard.
                   </p>
                 </div>
               </div>
@@ -142,10 +141,9 @@ const JustForTest = () => {
               <div className="hover-card6">
                 <div className="profile6">
                   <p className="text-center6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    reprehenderit impedit, odio inventore necessitatibus natus,
-                    beatae quibusdam eius exercitationem est optio blanditiis.
-                    Magni, harum! Libero, quos! Expedita eius deserunt numquam.
+                    Fizmasoft's most valuable project has launched in Andijan.
+                    The project is named Safe City and it was the result of very
+                    hard work. And Fizmasoft did not stop with that.
                   </p>
                 </div>
               </div>

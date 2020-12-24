@@ -1,8 +1,8 @@
 import React from "react";
 import "../partners/Partners.css";
-import ablsoft from "../images/ablsoft.png";
-import smartbaselogo from "../images/smartbaselogo.png";
 import repead3 from "../images/repead3.png";
+import ablsoftlogo from "../images/ablsoftlogo.png";
+import smartbase from "../images/smartbase.png";
 const Partners = () => {
   return (
     <div className="partnersMain">
@@ -11,10 +11,10 @@ const Partners = () => {
         <p className="partnership">Partnership is the key of improvement!</p>
         <div className="row partnersRow" style={{ marginBottom: "8rem" }}>
           <div className="col-sm-12 col-md-6">
-            <img className="ablsoft" src={ablsoft} />
+            <img className="ablsoft" src={ablsoftlogo} />
           </div>
           <div className="col-sm-12 col-md-6">
-            <img className="smartbase" src={smartbaselogo} />
+            <img className="smartbase" src={smartbase} />
           </div>
         </div>
         <div className="row" style={{ justifyContent: "flex-end" }}>
