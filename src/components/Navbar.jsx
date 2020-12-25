@@ -7,8 +7,8 @@ const Navbar = () => {
     <div>
       <div className="container logovscall">
         <div className="row">
-          <div className="col-sm-12 col-md-12  logodiv">
-            <img src={newLogo} />
+          <div className="col-sm-12 col-md-12">
+            <img src={newLogo} alt="Logo" />
           </div>
         </div>
       </div>

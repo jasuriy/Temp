@@ -4,17 +4,20 @@
   right: 3rem;
   z-index: 15 !important; 
 }
+.MuiDialog-paperWidthSm {
+  max-width: 562px;
+}
 .MuiDialogTitle-root {
   flex: 0 0 auto;
   margin: 0;
   padding: 7px 16px !important;
   height: 170px;
- 
+  width: 23rem !important;
 }
 .MuiInputBase-input {
   font: inherit;
   color: black !important;
-  width: 23rem !important;
+  width: 33rem !important;
   border: 0;
   height: 1.1876em;
   margin: 0;

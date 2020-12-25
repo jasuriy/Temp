@@ -20,11 +20,11 @@ const Services = () => {
       <div className="row  service_column">
         <div className="col-sm-12 col-md-6 col-lg-3 service_row ">
           <div className="row">
-            <img className="img-responsive " src={weblogo} alt="Card image" />
+            <img className="img-responsive " src={weblogo} alt="Card" />
           </div>
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="card card-class">
-              <div className="card-body cardBody">
+              <div className="card-body">
                 <h5 className="card-title titleCard ">Web Development</h5>
                 <p className="card-text  textCard">
                   We can offer several types of web-services which includes
@@ -37,11 +37,11 @@ const Services = () => {
         </div>
         <div className="col-sm-12 col-md-6 col-lg-3 service_row">
           <div className="row">
-            <img className="img-responsive" src={android} alt="Card image" />
+            <img className="img-responsive" src={android} alt="Card" />
           </div>
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="card">
-              <div className="card-body" cardBody>
+              <div className="card-body">
                 <h5 className="card-title titleCard">Android Development</h5>
                 <p className="card-text textCard">
                   iParent is one of the best projects of our android developers.
@@ -54,11 +54,11 @@ const Services = () => {
         </div>
         <div className="col-sm-12 col-md-6 col-lg-3 service_row">
           <div className="row">
-            <img className="img-responsive" src={apple} alt="Card image" />
+            <img className="img-responsive" src={apple} alt="Card" />
           </div>
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="card">
-              <div className="card-body" cardBody>
+              <div className="card-body">
                 <h5 className="card-title titleCard">iOS Development</h5>
                 <p className="card-text textCard">
                   Our iOS developers can make any application according to the
@@ -74,15 +74,11 @@ const Services = () => {
       <div className="row service_column">
         <div className="col-sm-12 col-md-6 col-lg-3 service_row">
           <div className="row">
-            <img
-              className="img-responsive"
-              src={desktoplogo}
-              alt="Card image"
-            />
+            <img className="img-responsive" src={desktoplogo} alt="Card" />
           </div>
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="card">
-              <div className="card-body" cardBody>
+              <div className="card-body">
                 <h5 className="card-title titleCard">Desktop Development</h5>
                 <p className="card-text textCard">
                   We can offer several types of web-services which includes
@@ -94,11 +90,11 @@ const Services = () => {
         </div>
         <div className="col-sm-12 col-md-6 col-lg-3 service_row">
           <div className="row">
-            <img className="img-responsive" src={server} alt="Card image" />
+            <img className="img-responsive" src={server} alt="Card" />
           </div>
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="card">
-              <div className="card-body" cardBody>
+              <div className="card-body">
                 <h5 className="card-title titleCard">Server Side Solutions </h5>
                 <p className="card-text textCard">
                   iParent is one of the best projects of our android developers.
@@ -111,11 +107,11 @@ const Services = () => {
         </div>
         <div className="col-sm-12 col-md-6 col-lg-3 service_row">
           <div className="row">
-            <img className="img-responsive" src={hardware} alt="Card image" />
+            <img className="img-responsive" src={hardware} alt="Card" />
           </div>
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="card">
-              <div className="card-body" cardBody>
+              <div className="card-body">
                 <h5 className="card-title titleCard">Hardware Development</h5>
                 <p className="card-text textCard">
                   Our iOS developers can make any application according to the

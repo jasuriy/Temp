@@ -4,13 +4,13 @@ import insta from "../team/insta.png";
 import gmail from "../team/gmail.png";
 import telegram2 from "../team/telegram2.png";
 import azamaka from "../images/azamaka.png";
-import muhamadsher from "../images/muhamadsher.jpg";
 import jaloliddin1 from "../images/jaloliddin1.png";
-import kayrat from "../images/kayrat.jpg";
-import oybek from "../images/oybek.jpg";
-import abubakr from "../images/abubakr.jpg";
+import kayrataka from "../images/kayrataka.jpg";
+import oybekaka from "../images/oybekaka.jpg";
 import baxodir from "../images/baxodir.jpg";
 import humoyunmirzo from "../images/humoyunmirzo.jpg";
+import sanjaraka from "../images/sanjaraka.jpg";
+import jamshidaka from "../images/jamshidaka.png";
 import TriangleImg from "./TriangleImg";
 const Team = () => {
   return (
@@ -26,8 +26,8 @@ const Team = () => {
               <h5 className="card-title cardTitle">Azamjon Rahimjonov</h5>
               <p className="card-job">CEO of Fizmasoft</p>
               <p className="card-text cardText">
-                Sometimes the simplest are the hardest to find. So we created a
-                new line for everday life. All Year round
+                If you want to go fast, go alone. If you want to go far, go
+                together.
               </p>
             </div>
             <div className="row socialLinks">
@@ -52,30 +52,28 @@ const Team = () => {
         <div className="col-sm-12 col-md-3 col-lg-3">
           <div className="card">
             <div className="image-div">
-              <TriangleImg img={muhamadsher} />
+              <TriangleImg img={jamshidaka} />
             </div>
             <div className="card-body cartBody">
-              <h5 className="card-title cardTitle">
-                Shermamatov Mukhammadsher
-              </h5>
-              <p className="card-job">Backend Developer</p>
+              <h5 className="card-title cardTitle">Jamshid Askarov</h5>
+              <p className="card-job">Desktop Developer</p>
               <p className="card-text cardText">
                 Lead from the back and let others believe they are in front.
               </p>
             </div>
             <div className="row socialLinks">
               <div className="socialLink">
-                <a href="https://instagram.com/dj_usher">
+                <a href="https://instagram.com/Askarov1807">
                   <img src={insta} alt="insta" />
                 </a>
               </div>
               <div className="socialLink">
-                <a href="mailto://mr.muhammadsher@mail.ru">
+                <a href="mailto://Jamshidbek1807@gmail.com">
                   <img src={gmail} alt="gmail" />
                 </a>
               </div>
               <div className="socialLink">
-                <a href="https://t.me/Dj_Usher">
+                <a href="@Askarov_J">
                   <img src={telegram2} alt="telegram2" />
                 </a>
               </div>
@@ -89,10 +87,9 @@ const Team = () => {
             </div>
             <div className="card-body cartBody">
               <h5 className="card-title cardTitle">Jaloliddin Boltaev</h5>
-              <p className="card-job">Android Developer</p>
+              <p className="card-job">IOS Developer</p>
               <p className="card-text cardText">
-                Sometimes the simplest are the hardest to find. So we created a
-                new line for everday life. All Year round
+                Success doesn't just find you. You have to go out and get it.
               </p>
             </div>
             <div className="row socialLinks">
@@ -117,7 +114,7 @@ const Team = () => {
         <div className="col-sm-12 col-md-3 col-lg-3">
           <div className="card">
             <div className="image-div">
-              <TriangleImg img={kayrat} />
+              <TriangleImg img={kayrataka} />
             </div>
             <div className="card-body cartBody">
               <h5 className="card-title cardTitle">Kayrat Urazov</h5>
@@ -151,7 +148,7 @@ const Team = () => {
         <div className="col-sm-12 col-md-3 col-lg-3">
           <div className="card">
             <div className="image-div">
-              <TriangleImg img={oybek} />
+              <TriangleImg img={oybekaka} />
             </div>
             <div className="card-body cartBody">
               <h5 className="card-title cardTitle">Beknazarov Oybek</h5>
@@ -182,28 +179,28 @@ const Team = () => {
         <div className="col-sm-12 col-md-3 col-lg-3">
           <div className="card">
             <div className="image-div">
-              <TriangleImg img={abubakr} />
+              <TriangleImg img={sanjaraka} />
             </div>
             <div className="card-body cartBody">
-              <h5 className="card-title cardTitle">Islomov Abu Bakr</h5>
-              <p className="card-job">UI/UX Designer</p>
+              <h5 className="card-title cardTitle">Karimov Sanjar</h5>
+              <p className="card-job">Android Developer</p>
               <p className="card-text cardText">
                 Don't be afraid to give up the good to go for the great !
               </p>
             </div>
             <div className="row socialLinks">
               <div className="socialLink">
-                <a href="https://www.instagram.com/islomov_1404/?utm_source=qr">
+                <a href="https://www.instagram.com/sanjarsuxrobovich/">
                   <img src={insta} alt="insta" />
                 </a>
               </div>
               <div className="socialLink">
-                <a href="mailto://abubakrislomov98@gmail.com">
+                <a href="sanjarsuxrobovich1996@gmail.com">
                   <img src={gmail} alt="gmail" />
                 </a>
               </div>
               <div className="socialLink">
-                <a href="@islomov_official">
+                <a href="@sanjar_suxrobovich">
                   <img src={telegram2} alt="telegram2" />
                 </a>
               </div>

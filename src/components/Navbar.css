@@ -5,23 +5,23 @@
   /* margin-left: 33rem; */
   overflow: hidden;
 }
-.logodiv {
+.products {
   padding-top: 3rem;
   padding-left: 11rem;
   /* padding-left: 0 auto; */
 }
-.logodiv img {
+.products img {
   justify-content: end;
   justify-items: end;
 }
 @media (max-width: 992px){
-  .logodiv {
+  .products {
     padding-top: 3rem;
     padding-left: 7rem;
 }
 }
 @media (max-width: 768px){
-  .logodiv {
+  .products {
     padding-top: 3rem;
     padding-left: 1rem;
 }

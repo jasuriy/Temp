@@ -72,7 +72,7 @@ a {
 
 .mobileNav .menu-icon {
     cursor: pointer;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     padding: 28px 20px;
     position: relative;

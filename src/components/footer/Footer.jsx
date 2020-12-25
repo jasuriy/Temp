@@ -17,6 +17,7 @@ const Footer = () => {
           <div className=" row col-md-6 d-inline">
             <div className="row justify-content-center  lowwerPhone">
               <img
+                alt="smth"
                 src={support3}
                 className="iconImage"
                 style={{ color: "white" }}
@@ -33,7 +34,7 @@ const Footer = () => {
                 <i
                   style={{ paddingLeft: "0.2rem", paddingTop: "0.5rem" }}
                   id="email-icon"
-                  class="fa fa-envelope fa-2x fa-fw  email-class"
+                  className="fa fa-envelope fa-2x fa-fw  email-class"
                   aria-hidden="true"
                 ></i>
                 info@fizmasoft.uz
@@ -60,20 +61,20 @@ const Footer = () => {
                 <ul className="footer-ul">
                   <a href="#service" className="footer-list-item">
                     <li>
-                      <i class="fa fa-chrome pr-2" aria-hidden="true"></i>Web
+                      <i className="fa fa-chrome pr-2" aria-hidden="true"></i>
+                      Web Developing
+                    </li>
+                  </a>
+                  <a href="#service" className="footer-list-item">
+                    <li>
+                      <i className="fa fa-apple pr-2" aria-hidden="true"></i>IOS
                       Developing
                     </li>
                   </a>
                   <a href="#service" className="footer-list-item">
                     <li>
-                      <i class="fa fa-apple pr-2" aria-hidden="true"></i>IOS
-                      Developing
-                    </li>
-                  </a>
-                  <a href="#service" className="footer-list-item">
-                    <li>
-                      <i class="fa fa-server pr-2" aria-hidden="true"></i>Server
-                      Solutions
+                      <i className="fa fa-server pr-2" aria-hidden="true"></i>
+                      Server Solutions
                     </li>
                   </a>
                 </ul>
@@ -82,19 +83,19 @@ const Footer = () => {
                 <ul className="footer-ul">
                   <a href="#service" className="footer-list-item">
                     <li>
-                      <i class="fa fa-gears pr-2" aria-hidden="true"></i>
+                      <i className="fa fa-gears pr-2" aria-hidden="true"></i>
                       Hardware Solutions
                     </li>
                   </a>
                   <a href="#service" className="footer-list-item">
                     <li>
-                      <i class="fa fa-laptop pr-2" aria-hidden="true"></i>
+                      <i className="fa fa-laptop pr-2" aria-hidden="true"></i>
                       Desktop Developing
                     </li>
                   </a>
                   <a href="#service" className="footer-list-item">
                     <li>
-                      <i class="fa fa-android pr-2" aria-hidden="true"></i>
+                      <i className="fa fa-android pr-2" aria-hidden="true"></i>
                       Android Developing
                     </li>
                   </a>
@@ -106,19 +107,20 @@ const Footer = () => {
             {/* <h5>OUR LOCATION</h5> */}
             <div>
               <iframe
+                title={"mapIframe"}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d748.768822046612!2d69.22027016314354!3d41.3507172590699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaadd09c7aab98704!2sFizmasoft!5e0!3m2!1sen!2s!4v1607663081489!5m2!1sen!2s"
                 width="80%"
                 height="45%"
-                frameborder="0"
+                frameBorder="0"
                 style={{
                   border: "0",
                   margin: "4px",
                   marginTop: "5rem",
                   overflow: "hidden",
                 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 aria-hidden="false"
-                tabindex="0"
+                tabIndex="0"
               ></iframe>
             </div>
           </div>

@@ -1,8 +1,9 @@
 {
-  "homepage": "https://jasuriy.github.io/Temp",
+  "homepage": ".",
   "name": "fizmasoftweb",
   "version": "0.1.0",
   "private": true,
+  "start_url": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",

@@ -7,6 +7,7 @@ const MainBack = () => {
     <div className="mainback">
       <div className="main_picture">
         <img
+          alt="smth"
           className="backpic responsive"
           src={computerImage1}
           style={{ width: "100%" }}

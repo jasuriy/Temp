@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
-import DialogContentText from "@material-ui/core/DialogContentText";
+// import DialogContentText from "@material-ui/core/DialogContentText";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
@@ -26,6 +26,8 @@ const useStyles = makeStyles({
 });
 export default function AlertDialogSlide() {
   const [open, setOpen] = React.useState(false);
+  const [email, setEmail] = React.useState("");
+
   const closeclass = useStyles();
   const CHARACTER_LIMIT = 100;
   const handleClickOpen = () => {
@@ -34,6 +36,10 @@ export default function AlertDialogSlide() {
 
   const handleClose = () => {
     setOpen(false);
+  };
+  const handleChange = (e) => {
+    const email = e.target.value;
+    setEmail(email);
   };
 
   return (
@@ -87,28 +93,34 @@ export default function AlertDialogSlide() {
           </Box>
         </Box>
         <DialogContent>
-          <DialogContentText id="alert-dialog-slide-description">
-            <FormControl style={{ marginLeft: "25px" }}>
-              <InputLabel htmlFor="my-input">Your name</InputLabel>
-              <Input id="my-input" aria-describedby="my-helper-text" />
-            </FormControl>
-          </DialogContentText>
-          <DialogContentText id="alert-dialog-slide-description">
-            <FormControl style={{ marginLeft: "25px" }}>
-              <InputLabel htmlFor="my-input">Email address</InputLabel>
-              <Input id="my-input" aria-describedby="my-helper-text" />
-            </FormControl>
-          </DialogContentText>
-          <DialogContentText style={{ marginLeft: "25px" }}>
+          {/* <DialogContentText id="alert-dialog-slide-description"> */}
+          <FormControl style={{ marginLeft: "25px" }}>
+            <InputLabel htmlFor="my-input1">Your name</InputLabel>
+            <Input id="my-input1" aria-describedby="my-helper-text" />
+          </FormControl>
+          {/* </DialogContentText> */}
+          {/* <DialogContentText id="alert-dialog-slide-description"> */}
+          <FormControl style={{ marginLeft: "25px" }}>
+            <InputLabel htmlFor="my-input">Email address</InputLabel>
+            <Input
+              id="my-input"
+              aria-describedby="my-helper-text"
+              name="email"
+              value={email}
+              onChange={handleChange}
+            />
+          </FormControl>
+          {/* </DialogContentText> */}
+          <div style={{ marginLeft: "25px" }}>
             <TextField
               inputProps={{
-                maxlength: CHARACTER_LIMIT,
+                maxLength: CHARACTER_LIMIT,
               }}
               multiline
               id="standard-basic"
               label="Your message"
             />
-          </DialogContentText>
+          </div>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="primary">

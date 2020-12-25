@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../navbarWithToggle/NavbarToggle.css";
-import { Link, animatedScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 var onClickedList = {
   0: "service",
@@ -14,7 +14,7 @@ function elmYPosition(eID) {
   var elm = document.getElementById(eID);
   var y = elm.offsetTop;
   var node = elm;
-  while (node.offsetParent && node.offsetParent != document.body) {
+  while (node.offsetParent && node.offsetParent !== document.body) {
     node = node.offsetParent;
     y += node.offsetTop;
   }
@@ -34,7 +34,7 @@ const NavbarToggle = () => {
 
   const onScroll = (e) => {
     let header = document.getElementById("navBar");
-    const iconbutton = document.querySelector(".menu-btn");
+    // const iconbutton = document.querySelector(".menu-btn");
     if (window.pageYOffset >= 347) {
       header.classList.add("sticky");
       header.classList.add("shadow-sm");
@@ -50,9 +50,6 @@ const NavbarToggle = () => {
   };
   return (
     <div>
-      {/* <Dialog />
-      <HeaderNavs />
-      <Navbar /> */}
       <header className="navbar sticky-top navbar-light" id="navBar">
         <div className="mobileNav d-md-flex sticky-top justify-content-center">
           <input className="menu-btn" type="checkbox" id="menu-btn"></input>
@@ -62,47 +59,52 @@ const NavbarToggle = () => {
           <ul className="menu">
             <li className="menu-link">
               <Link
+                to="#service"
                 activeClass="active"
                 onClick={(e) => world("0")}
                 duration={3000}
               >
-                <a href="#service">SERVICES</a>
+                SERVICES
               </Link>
             </li>
             <li className="menu-link">
               <Link
+                to="#projects"
                 activeClass="active"
                 onClick={(e) => world("1")}
                 duration={3000}
               >
-                <a href="#projects">PROJECTS</a>
+                PROJECTS
               </Link>
             </li>
             <li className="menu-link">
               <Link
+                to="#timeline"
                 activeClass="active"
                 onClick={(e) => world("2")}
                 duration={3000}
               >
-                <a href="#timeline">TIMELINE</a>
+                TIMELINE
               </Link>
             </li>
             <li className="menu-link">
               <Link
+                to="#team"
                 activeClass="active"
                 onClick={(e) => world("3")}
                 duration={3000}
               >
-                <a href="#team">TEAM</a>
+                TEAM
               </Link>
             </li>
             <li className="menu-link">
               <Link
+                to="#contact"
                 activeClass="active"
                 onClick={(e) => world("4")}
                 duration={3000}
               >
-                <a href="#contact">CONTACT</a>
+                CONTACT
               </Link>
             </li>
           </ul>
