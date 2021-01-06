@@ -14,7 +14,7 @@ import Dialog from "./components/dialog/Dialog";
 const App = () => {
   return (
     <div className="App">
-      <Dialog />
+      {/* <Dialog /> */}
       <HeaderNavs />
       <Navbar />
       <NavbarToggle />
