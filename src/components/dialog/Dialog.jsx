@@ -79,7 +79,7 @@ export default function AlertDialogSlide() {
               className="dialog-p"
               style={{ marginTop: "4px", marginLeft: "88px", color: "#170a47" }}
             >
-              Please, leave your message
+              Please, leave your messageaaaa
             </p>
           </Box>
           <Box>
