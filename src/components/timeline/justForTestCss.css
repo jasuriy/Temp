@@ -85,8 +85,14 @@ height: 50px !important;
 }
 @media screen and (max-width: 360px) {
 .about-fizmasoft h5 {
-font-size: 20px ;
+font-size: 20px !important ;
 } 
+.content4 h3 {
+    font-size: 19px !important;
+}
+.box4 .content4 {
+    bottom: 30% !important;
+}
 .box:hover .content{
 height: 60% !important;
 width: 50% !important;
@@ -109,7 +115,7 @@ bottom: 66px !important;
 }
 .box2:hover .content2 {
 width: 50% !important;
-height: 75%;
+height: 70%;
 bottom: 0px;
 left: 25% !important;
 background: white;
@@ -119,7 +125,6 @@ border-radius: 40px 0 40px 0;
 .box3 .content3{
 left: 28% !important;
 width: 45% !important;
-bottom: 72px !important;
 height: 46px !important;
 }
 .box3:hover .content3{
@@ -136,14 +141,14 @@ height: 48% !important;
 width: 52% !important;
 left: 85px !important;
 }
+.box6 .content6{
+bottom: 16% !important;
+}
 .profile4 p{
 padding: 1px !important;
 font-size: 12.5px !important;
 margin-top: 0px !important;
 }
-/* .imgBox5 img{
-height: 23em !important;
-} */
 .profile5 p{
 margin-top: 0px !important;
 font-size: 15px!important;
@@ -179,10 +184,6 @@ padding: 15px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-}
-.box:hover .content .hover-card {
-opacity: 1;
-transition-delay: 0.5s;
 }
 .profile h5 {
 margin-top: 30px;
@@ -236,7 +237,7 @@ font-weight: bold;
 }
 .box3 .content3 {
 position: absolute;
-bottom: 1px !important;
+bottom: 1% ;
 left: 28%;
 width: 45%;
 height: 60px;
@@ -314,7 +315,7 @@ font-weight: bold;
 }
 .box5 .content5 {
 position: absolute;
-bottom: 82px !important;
+bottom: 108px !important;
 left: 28%;
 width: 43%;
 height: 45px;
@@ -324,7 +325,7 @@ background-color: rgb(241, 233, 233);
 }
 .box5:hover .content5 {
 width: 53%;
-height: 60% !important;
+height: 50% !important;
 bottom: 100px;
 left: 24%;
 background: white;
@@ -352,7 +353,7 @@ font-weight: bold;
 }
 .box6 .content6 {
 position: absolute;
-bottom: 1px;
+bottom: 1%;
 left: 28%;
 width: 43%;
 height: 43px ;
